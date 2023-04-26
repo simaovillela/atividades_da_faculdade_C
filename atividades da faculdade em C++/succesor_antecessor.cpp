@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main(){
-float n, s, a;
+int n, s, a;
 	printf("Insira um numero:");
-	scanf("%f", &n);
+	scanf("%i", &n);
 	a = n - 1;
 	s = n + 1;
-	printf("\no antessessor de %.2f = %.2f", n, a);
-	printf("\no sucessor de %.2f = %.2f", n, s);
+	printf("\no antessessor de %.2i = %.2i", n, a);
+	printf("\no sucessor de %.2i = %.2i", n, s);
 }
