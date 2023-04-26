@@ -2,9 +2,9 @@
 int main(){
 int n, s, a;
 	printf("Insira um numero:");
-	scanf("%i", &n);
+	scanf("%d", &n);
 	a = n - 1;
 	s = n + 1;
-	printf("\no antessessor de %.2i = %.2i", n, a);
-	printf("\no sucessor de %.2i = %.2i", n, s);
+	printf("\no antessessor de %d = %d", n, a);
+	printf("\no sucessor de %d = %d", n, s);
 }
